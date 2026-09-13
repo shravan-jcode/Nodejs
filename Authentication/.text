@@ -1,0 +1,12 @@
+** Validation: Checks whether the data is correct and meets the required rules.
+   Example: Ensuring an email is not empty and a password has at least 8 characters.
+
+** Verification: Checks whether the data is in the correct format or matches expected  information.
+  Example: Verifying that an email address follows the format user@example.com or that an OTP entered by the user matches the one sent.
+
+
+** Authentication: Confirms the identity of a user—answers the question, "Who are you?"
+   Example: Logging in with a username and password, OTP, or fingerprint.
+
+** Authorization: Determines what an authenticated user is allowed to do—answers the   question, "What are you allowed to access?"
+   Example: An admin can delete users, while a regular user cannot.
