@@ -103,6 +103,7 @@ async function getAllAlbums(req,res){
         albums:albums,
     })
 }
+
 async function getAllAlbumsById(req, res) {
     const albumId = req.params.albumId;
 
@@ -118,3 +119,5 @@ async function getAllAlbumsById(req, res) {
 }
 
 module.exports = { createMusic ,createAlbum,getAllMusics,getAllAlbums,getAllAlbumsById};
+
+
